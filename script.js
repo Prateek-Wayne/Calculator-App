@@ -1,6 +1,7 @@
 let button = document.querySelectorAll('.button-css');
 let input = document.querySelector('.input');
 let str = "";
+
 for (i = 0; i < button.length; i++) {
     button[i].addEventListener('click', (e) => {
         
